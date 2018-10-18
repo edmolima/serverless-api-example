@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serverless offline start --port=3001",
-    "deploy": "scripts/deploy.sh"
+    "start": "serverless offline start --port=3001"
   },
   "keywords": [],
   "author": "",
