@@ -22,7 +22,7 @@ app.get('/loans', function(req, res) {
 });
 
 app.get('/proxy-example', function(req, res) {
-  https.request('https://jsonplaceholder.typicode.com/posts/1', function(response) {
+  https.request('https://jsonplaceholder.typicode.com/posts/2', function(response) {
     response.pipe(res);
   }).on('error', function(e) {
     res.sendStatus(500);
