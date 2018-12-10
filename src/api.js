@@ -6,7 +6,7 @@ var https = require('https');
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const URL = 'https://servicing.creditas.com.br/api/v1/onboarding/home_loans/dcd027f8-9684-11e8-851c-7327c0140f59/installments?in_arrears=true'
+const URL = 'https://servicing.com.br/api/v1/onboarding/home_loans/dcd027f8-9684-11e8-851c-7327c0140f59/installments?in_arrears=true'
 
 //
 // configure microservice with express
